@@ -10,6 +10,7 @@ img {
   main {
     display: inline-block;
     margin-right: 15px;
+    flex: 1;
     margin-left:15px;                     /* ici j'ai ajoute margin-left et right*/
   }
 body{
@@ -24,4 +25,9 @@ body{
   margin: 20px;
   font-weight: 500;
   
+}
+
+.text2{
+  margin: 30px;
+
 }
