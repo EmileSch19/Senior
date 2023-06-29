@@ -1,49 +1,78 @@
 header {
-    background-color: #251521;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .logo {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #FFFFFF;
-    margin-right: 10px;
-  }
-  
+  background-color: #251521;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  margin-right: 10px;
+}
+
+nav {
+  margin-left: 40%;
+  background-color: #251521;
+  text-align: center;
+  padding: 10px 0;
+  justify-content: center;
+}
+
+li {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  color: #FFFFFF;
+  margin-right: 20px;
+}
+
+li:hover {
+  color: #FF9999;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+/* Ajouter des styles aux liens */
+nav ul li a {
+  text-decoration: none;
+  /* Supprimer la soulignement des liens */
+  color: #FFFFFF;
+  /* Couleur blanche par défaut */
+}
+
+/* Modifier les styles au survol des liens */
+nav ul li a:hover {
+  color: #FF9999;
+  /* Couleur rouge clair au survol */
+}
+
+/* Styles pour les écrans jusqu'à 600 pixels de largeur */
+@media screen and (max-width: 600px) {
   nav {
-    margin-left: 40%;
-    background-color: #251521;
-    text-align: center;
-    padding: 10px 0;
-    justify-content: center;
+    margin-left: 0;
+    /* Ajuster la marge */
   }
 
-  li{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    font-style: italic;
-    color: #FFFFFF;
-}
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  nav ul li {
-    display: inline;
+  li {
     margin-right: 10px;
-    
+    /* Ajuster l'espace entre les éléments */
   }
-  
-  nav ul li:last-child {
-    margin-right: 5;
-  }
-  
+}
