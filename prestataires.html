@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prestataires</title>
-    <link rel="stylesheet" href="Css/styleA.css">
+    <link rel="stylesheet" href="Css/prestataires.css">
     <link rel="stylesheet" href="Css/Footer.css">
     <link rel="stylesheet" href="Css/header.css">
     <link
@@ -15,6 +15,7 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   />
+  <script defer src="js/scripte.js"></script>
 </head>
 <body>
     <header>
@@ -32,17 +33,31 @@
         
       </header>
 
-    
-
-      <main>
-        <!-- Contenu principal du site -->
-        <img class="photos"  src="IMG_S\EN-CE-MOMENT-588x565-px-annuaire-sante.jpg" alt="Testimages">
-        <p class="txtprest">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia cum illum modi in similique, dolorum tempora rerum doloribus culpa delectus, consequuntur repellat totam, vero inventore accusantium! Facilis illo, quas rerum dolor autem numquam beatae, laudantium excepturi, quaerat sapiente labore minus.</p>
-        <img class="photos" src="IMG_S\soin-medical.jpg" alt="imagesTEST">
-        <p class="txtprest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit laudantium perspiciatis expedita aliquam tempora esse amet cupiditate, alias ea, pariatur culpa molestias voluptatem voluptates sequi?</p>
-        <img class="photos" src="IMG_S\jen-theodore-fqkaMzeGk7E-unsplash-scaled.jpg" alt="TESTSes">
-        <p class="txtprest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus inventore laudantium quod tenetur saepe id?</p>
-      </main>
+      
+      <div class="slideshow">
+        <div class="slides-container">
+          <div class="slide active">
+            <img src="IMG_S/SeniorCare2.png" alt="Photo 1">
+            <div class="text">Texte pour la Photo 1</div>
+          </div>
+          <div class="slide">
+            <img src="IMG_S/Soin-Kettering-Health-Beavercreek-Dining-Area-1900-1600x1069.jpg" alt="Photo 2">
+            <div class="text">Texte pour la Photo 2</div>
+          </div>
+          <div class="slide">
+            <img src="IMG_S/EN-CE-MOMENT-588x565-px-annuaire-sante.jpg" alt="Photo 3">
+            <div class="text">Texte pour la Photo 3</div>
+          </div>
+        </div>
+        
+        <div class="controls">
+          <button class="prev"><i class="fas fa-chevron-left"></i></button>
+          <button class="next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+      
+      
+      
 
       <section class="footer">
         <div class="social">
