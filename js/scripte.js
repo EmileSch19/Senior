@@ -1,6 +1,8 @@
 const slides = document.querySelectorAll('.slide');
 const prevBtn = document.querySelector('.prev');
 const nextBtn = document.querySelector('.next');
+const input = document.querySelector('.input');
+const recherche= document.querySelector('.search');
 
 let currentSlide = 0;
 
@@ -20,3 +22,12 @@ function prevSlide() {
 
 nextBtn.addEventListener('click', nextSlide);
 prevBtn.addEventListener('click', prevSlide);
+recherche.addEventListener('click', () => {
+  input.style.display = 'block';
+});
+
+input.addEventListener('submit', () => {
+  input.style.display = 'none';
+});
+
+ 

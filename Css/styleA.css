@@ -2,11 +2,11 @@ img {
     display: block;
     margin: 0 auto;
       max-width: 100%;
-      height: auto;                               /* ici j'ai ajoute border-radius et margin-top */
+      height: auto;                              
       border-radius: 5px;
       margin-top:10px;
   }
-
+  
   main {
     display: inline-block;
     margin-right: 15px;
