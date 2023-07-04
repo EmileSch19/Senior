@@ -1,0 +1,26 @@
+img {
+    display: block;
+    margin: 0 auto;
+      max-width: 100%;
+      height: auto;                              
+      border-radius: 5px;
+      margin-top:10px;
+  }
+  
+  main {
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 15px;
+    flex: 1;
+    margin-left:15px;                     /* ici j'ai ajoute margin-left et right*/
+  }
+body{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;}
+  
+img{
+    width: 100px;
+    height: 100px;
+}
