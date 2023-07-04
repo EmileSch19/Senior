@@ -3,6 +3,7 @@ const prevBtn = document.querySelector('.prev');
 const nextBtn = document.querySelector('.next');
 const input = document.querySelector('.input');
 const recherche= document.querySelector('.search');
+const fermer = document.querySelector('Button');
 
 let currentSlide = 0;
 
@@ -26,7 +27,7 @@ recherche.addEventListener('click', () => {
   input.style.display = 'block';
 });
 
-input.addEventListener('submit', () => {
+fermer.addEventListener('click', () => {
   input.style.display = 'none';
 });
 
