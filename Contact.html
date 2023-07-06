@@ -18,7 +18,6 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer">
 
-  />
 </head>
 <body>
  <header>
@@ -28,7 +27,6 @@
     <nav>
     <ul>
       <li><a href="Index.html">Accueil</a></li>
-      <li><a href="#" >Contact</a></li>
     <li><a href="prestataires.html">Prestataires</a></li>
       <li><a href="Aide.html">Aide</a></li>
       <li><a href=# class="search">Recherche</a></li>
@@ -39,29 +37,40 @@
     </ul>
   </nav>
   </header>
-  <main>
+  <main id="container">
     <div id="c">
-      <img src="C:\Users\emile\Desktop\Senior\IMG_S\telephone-contact-icon-in-black-circle-shape-free-png.webp">
-    <ul>
-      <li>Nom : John Doe</li>
-      <li>Adresse : 123 rue Principale, Ville, Pays</li>
-      <li>Téléphone : +1 234 567 890</li>
-      <li>E-mail : john.doe@example.com</li>
-    </ul>
+      <img src="IMG_S\imagesTEST.png">
+        <p>Nom : John Doe</p>
+        <p>Adresse : 123 rue Principale, Ville, Pays</p>
+        <p>Téléphone : +1 234 567 890</p>
+        <p>E-mail : john.doe@example.com</p>
     </div>
+
     <div id="maps">
-      <img src="C:\Users\emile\Desktop\Senior\IMG_S\img_511543.png">
-    <address>
-      123 rue Principale, Ville, Pays<br>
-      Téléphone : +1 234 567 890<br>
-      E-mail : john.doe@example.com
-    </address>
-  </div>
-
-
-
-
+      <img src="IMG_S\imagesTEST.png">
+      <address>
+        123 rue Principale, Ville, Pays<br>
+        Téléphone : +1 234 567 890<br>
+        E-mail : john.doe@example.com
+      </address>
+    </div>
   </main>
+  <form action="#" method="POST">
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom" required>
+
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message :</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <input type="submit" value="Envoyer">
+  </form>
+
+
+
+ 
   <section class="footer">
     <div class="social">
       <a href="#"><i class="fab fa-instagram"></i></a>
@@ -88,6 +97,6 @@
     </ul>
     <p class="copyright">Future Coders @ 2021</p>
   </section>
-  <script defer src="js/scripte.js"></script>
+  <script defer src="js\Script.js"></script>
 </body>
 </html>
