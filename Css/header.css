@@ -76,3 +76,17 @@ nav ul li a:hover {
     /* Ajuster l'espace entre les éléments */
   }
 }
+input[type="text"] {
+  padding: 10px 40px 10px 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  margin-left: 25%;
+}
+li.input {
+  display: none;
+}
+button[type="submit"] img {
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+}
