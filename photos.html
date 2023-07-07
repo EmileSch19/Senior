@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/Footer.css">
     <link rel="stylesheet" href="Css/header.css">
+    <link rel="stylesheet" href="Css/photos.css">
     
-    <!--  je ne sais pas si vous voulez linkez ca ou pas 
+    
     <link 
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous"
-    referrerpolicy="no-referrer"> -->
+    referrerpolicy="no-referrer"> 
+    <script defer src="js/app.js"></script>
     <title>Photos</title>
 </head>
 <body>
@@ -35,12 +37,14 @@
       </nav>
       </header>
 
-<h1>    Ajoutez des photos      </h1>
+<h1> Ajoutez des photos</h1>
 
 
-
-
-
+    <div class="container-buttons">
+        <input type="file" id="myfile" name="myphotos" accept="image/*" multiple />
+        <input type="submit" id="upload" name="uploader" onclick="uploadPhotos()" />
+    </div>
+    <div class="photo-grid" id="album"></div>
 
 
     <section class="footer">
