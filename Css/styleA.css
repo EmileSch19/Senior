@@ -1,42 +1,81 @@
-img {
-    display: block;
-    margin: 0 auto;
-      max-width: 100%;
-      height: auto;                              
-      border-radius: 5px;
-      margin-top:10px;
-  }
-  
-  main {
-    display: inline-block;
-    margin-right: 15px;
-    flex: 1;
-    margin-left:15px;                     /* ici j'ai ajoute margin-left et right*/
-  }
-body{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 16px;
-  
+header{
+    position: fixed; 
+    width: 100%;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    
 }
 
-  
- /* CSS POUR LES TEXT  */
-.text{
-  margin: 20px;
-  font-weight: 500;
-  
+section h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    
 }
 
-.text2{
-  margin: 30px;
+section h3{
+   margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.btn{
+    margin-top: 20px;
+    
+}
+.btn1{
+    padding: 10px;
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.btn2{
+    padding: 10px;
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 5px;
+    
+}
+.bg{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: url('https://www.essentiel-autonomie.com/sites/eau/files/styles/image_bandeau/public/2021-02/quels-services-domicile-personnes-agees-dependantes.jpg?itok=bSW_S40W');
+    background-size: cover;
+    color: salmon;
+    padding: 40px;
+    height: 290px;
 
 }
-.photos{
-  width: 500px;
-  height: 500px;
+.block{
+    
+    background: rgba(rgba(218, 208, 208, 0.068), green, blue, alpha);
+    min-height: 500px;
+    width: 90%;
+    margin:0 auto;
+    border: solid 1px red;
 }
-
-.txtprest{
-  margin: 30px;
-  font-weight: 500;
+.block ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.block li{
+    list-style: none;
+    height: 350px;
+    width: 350px;
+    margin: 10px;
+    background: turquoise;
+}
+img{
+    height: 350px;
+    width: 350px;
 }

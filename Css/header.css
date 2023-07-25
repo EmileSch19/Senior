@@ -1,25 +1,22 @@
 header {
-  background-color: #251521;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 30px 10%;
+  
 }
 
-.logo {
-  width: 50px;
-  height: 50px;
+
+.logo {order: 2;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background-color: #FFFFFF;
-  margin-right: 10px;
+  margin-bottom: 10px;
+  
 }
 
-nav {
-  margin-left: 40%;
-  background-color: #251521;
-  text-align: center;
-  padding: 10px 0;
-  justify-content: center;
-}
+
 
 li {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -34,27 +31,39 @@ li:hover {
   color: #FF9999;
 }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+nav{
+  order:1;
   display: flex;
+  
+}
+nav li{
+  list-style: none;
   justify-content: space-between;
+  
+}
+nav li a{
+  text-decoration: none;
+  padding: 5px;
+  color: azure;
+  font-weight: 600;
+  margin: 5px;
+  margin-bottom: 0;
+ 
+}
+button .btn-i{
+  order:3;
+  border-radius: 5px;
+  background: #ccc;
+  color: #FF9999;
 }
 
-nav ul li {
-  display: inline;
-}
 
-nav ul li:last-child {
-  margin-right: 0;
-}
 
 /* Ajouter des styles aux liens */
 nav ul li a {
   text-decoration: none;
   /* Supprimer la soulignement des liens */
-  color: #FFFFFF;
+  color:salmon
   /* Couleur blanche par défaut */
 }
 
