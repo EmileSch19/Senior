@@ -1,101 +1,52 @@
-header {
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li, a, button{
+  font-weight: 500;
+  font-size: 16px;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+header{
+  height: 70px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-  
+  background: red;
+}
+.logo{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  cursor: pointer;
 }
 
-
-.logo {order: 2;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #FFFFFF;
-  margin-bottom: 10px;
-  
-}
-
-
-
-li {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  font-style: italic;
-  color: #000000;
-  margin-right: 20px;
-}
-
-li:hover {
-  color: #FF9999;
-}
-
-nav{
-  order:1;
-  display: flex;
-  
-}
-nav li{
+.navbar{
   list-style: none;
-  justify-content: space-between;
+}
+
+.navbar li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.navbar li a{
   
 }
-nav li a{
-  text-decoration: none;
-  padding: 5px;
-  color: azure;
-  font-weight: 600;
-  margin: 5px;
-  margin-bottom: 0;
- 
-}
-button .btn-i{
-  order:3;
-  border-radius: 5px;
-  background: #ccc;
-  color: #FF9999;
-}
 
-
-
-/* Ajouter des styles aux liens */
-nav ul li a {
-  text-decoration: none;
-  /* Supprimer la soulignement des liens */
-  color:salmon
-  /* Couleur blanche par défaut */
+button{
+  padding: 3px 25px;
+  background:blueviolet ;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
 }
-
-/* Modifier les styles au survol des liens */
-nav ul li a:hover {
-  color: #FF9999;
-  /* Couleur rouge clair au survol */
-}
-
-/* Styles pour les écrans jusqu'à 600 pixels de largeur */
-@media screen and (max-width: 600px) {
-  nav {
-    margin-left: 0;
-    /* Ajuster la marge */
-  }
-
-  li {
-    margin-right: 10px;
-    /* Ajuster l'espace entre les éléments */
-  }
-}
-input[type="text"] {
-  padding: 10px 40px 10px 10px;
-  border-radius: 20px;
-  border: 1px solid #ccc;
-  margin-left: 25%;
-}
-li.input {
-  display: none;
-}
-button[type="submit"] img {
-  width: 20px;
+.icon{
   height: 20px;
-  display: inline-flex;
+  width: 20px;
 }

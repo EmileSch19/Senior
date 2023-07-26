@@ -79,3 +79,72 @@ img{
     height: 350px;
     width: 350px;
 }
+/*Services*/
+.services{ background: rgba(rgba(218, 208, 208, 0.068), green, blue, alpha);
+    min-height: 500px;
+    width: 90%;
+    margin:0 auto;
+    border: solid 1px red;}
+
+    .services ul{
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    .services li{
+        list-style: none;
+        height: 350px;
+        width: 350px;
+        margin: 10px;
+        background: turquoise;
+    }
+   
+/*Ressources*/
+.ressources{ background: rgba(rgba(218, 208, 208, 0.068), green, blue, alpha);
+    min-height: 500px;
+    width: 90%;
+    margin:0 auto;
+    border: solid 1px red;}
+
+    .ressources ul{
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    .ressources li{
+        list-style: none;
+        height: 350px;
+        width: 350px;
+        margin: 10px;
+        background: turquoise;
+    }
+    
+/*Evenement*/
+.evenement{ background: rgba(rgba(218, 208, 208, 0.068), green, blue, alpha);
+    min-height: 500px;
+    width: 90%;
+    margin:0 auto;
+    border: solid 1px red;}
+
+    .evenement ul{
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    .evenement li{
+        list-style: none;
+        height: 350px;
+        width: 350px;
+        margin: 10px;
+        background: turquoise;
+    }
+    
+/*Partie reserver aux souvenirs
+.container-buttons{
+    
+    background: rgba(rgba(218, 208, 208, 0.068), green, blue, alpha);
+    min-height: 500px;
+    width: 90%;
+    margin:0 auto;
+    border: solid 1px red;
+}
