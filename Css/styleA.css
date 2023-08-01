@@ -5,6 +5,8 @@ header{
 .container{
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100vh;
     
 }
 
@@ -70,12 +72,12 @@ section h3{
 }
 .block li{
     list-style: none;
-    height: 350px;
+    height: 400px;
     width: 350px;
     margin: 10px;
     background: turquoise;
 }
-img{
+img{border-radius: 15px;
     height: 350px;
     width: 350px;
 }

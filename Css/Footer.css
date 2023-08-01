@@ -4,19 +4,16 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Segoe UI', Arial, sans-serif;
-  font-weight: 400;
-  background-color: #ededed;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
 .footer {
-  padding: 40px 0;
-  background-color: #ffffff;
-  margin-top: auto;
+  background-color: #7f3a5f;
+  padding: 20px;
+  text-align: center;
+  /* Positionnement du pied de page en bas */
+  bottom: 0;
+  width: 100%;
+  min-height: 120px;
 }
+
 
 .footer .social {
   text-align: center;

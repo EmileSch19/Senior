@@ -1,71 +1,72 @@
-
-#container {
-  margin-top: 40px;
-  display: flex; /* pour faire les deux en row */
-  flex-direction: row; /* pour faire les deux en row */
-  align-items: center;  /* pour faire les deux en center */
-  justify-content: center;
-}
-
-#maps {
-  width: 500px;
-  height: 350px;
-  text-align: center;
-  background-color: aquamarine;
-  margin-right: 20px; /* Add a margin between the elements */
-}
-
-#c {
-  width: 500px;
-  height: 350px;
-  text-align: center;
-  background-color: blue;
-}
-
-#form-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-form {
-  border-radius: 5px;
-  width: 500px;
-  height: 370px; /* j'ai agumenter le height pour le form*/
-  background-color: darkorchid;
-  border: 3px solid black;
-  display: flex;
-  flex-direction: column;
+.container{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 35px; /* j'ai ajouter le margin bottom*/
+  text-align: center;
 }
+.contenu{
+  width: 90%;
+  margin: 0 auto;
+ display: grid;
 
-label {
-  display: block;
-  margin-bottom: 10px;
-  font-size: 24px;
+
+
 }
-
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 70%;
-  padding: 10px;
-  margin: 0px 0px 20px;
-  font-size: 16px;
-  border-radius: 10px;
-  border: 1px solid #ccc;
-  margin-bottom: 20px;
+.left{
+ border: solid 0.1px;
+ background: #7f3a5f;
+ border-radius: 6px;
+ margin-top:25px;
+ margin-bottom:25px;
 }
+.left ul{
+list-style: none;
+align-items: center;
 
-input[type="submit"] {
+}
+.left input {
+  margin-top: 10px;
+  height: 2rem;
   margin: 5px;
-  padding: 10px 10px;
-  font-size: 16px;
-  border-radius: 10px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  cursor: pointer;
+  border-radius: 5px;
+}
+textarea{
+  margin: 5px;
+  border-radius: 5px;
+}
+button{
+  border-radius: 5px;
+  background: #f081bc;
+  margin: 10px ;
+}
+.right{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:25px ;
+  margin-bottom:25px ;
+}
+a{
+color: #f081bc;
+}
+img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;  
+}
+@media screen and (max-width:720px) {
+  .right{
+    display: block;
+  }
+  .contenu{
+    width: 80%;
+    margin: 0 auto;
+  
+  
+  
+  }
 }
