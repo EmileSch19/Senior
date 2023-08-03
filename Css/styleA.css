@@ -1,15 +1,16 @@
-header{
-    position: fixed; 
-    width: 100%;
-}
-.container{
+*{
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100vh;
-    
+    font-family: 'Poppins', sans-serif;
 }
-
+.container{
+    height: 90vh;
+    width: 100%;
+    background-image: url('/IMG_S/SeniorCare1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
 section h1{
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
@@ -23,11 +24,11 @@ section h3{
 }
 .btn{
     margin-top: 20px;
-    
+    margin-left: 10%;
 }
 .btn1{
     padding: 10px;
-    background-color: aliceblue;
+    background-color:  #f081bc;
     color: black;
     border: none;
     border-radius: 5px;
@@ -36,7 +37,7 @@ section h3{
 }
 .btn2{
     padding: 10px;
-    background-color: aliceblue;
+    background-color: #f081bc;
     color: black;
     border: none;
     border-radius: 5px;
@@ -45,108 +46,29 @@ section h3{
     
 }
 .bg{
-    margin-top: 25px;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    background: url('https://www.essentiel-autonomie.com/sites/eau/files/styles/image_bandeau/public/2021-02/quels-services-domicile-personnes-agees-dependantes.jpg?itok=bSW_S40W');
-    background-size: cover;
-    color: salmon;
+    color:#f081bc ;
     padding: 40px;
     height: 290px;
 
 }
-.block{
-    
-    background: rgba(rgba(218, 208, 208, 0.068), green, blue, alpha);
-    min-height: 500px;
-    width: 90%;
-    margin:0 auto;
-    border: solid 1px red;
+.text{
+    height: 200px;
+    width: 35%;
+    margin-left: 5%;
+    color: #f081bc;
+    font-size: 16px;
+    font-weight: 900;
 }
-.block ul{
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-}
-.block li{
-    list-style: none;
-    height: 400px;
-    width: 350px;
-    margin: 10px;
-    background: turquoise;
-}
-img{border-radius: 15px;
-    height: 350px;
-    width: 350px;
-}
-/*Services*/
-.services{ background: rgba(rgba(218, 208, 208, 0.068), green, blue, alpha);
-    min-height: 500px;
-    width: 90%;
-    margin:0 auto;
-    border: solid 1px red;}
 
-    .services ul{
-        padding: 0;
-        display: flex;
-        justify-content: space-around;
-    }
-    .services li{
-        list-style: none;
-        height: 350px;
-        width: 350px;
-        margin: 10px;
-        background: turquoise;
-    }
-   
-/*Ressources*/
-.ressources{ background: rgba(rgba(218, 208, 208, 0.068), green, blue, alpha);
-    min-height: 500px;
-    width: 90%;
-    margin:0 auto;
-    border: solid 1px red;}
-
-    .ressources ul{
-        padding: 0;
-        display: flex;
-        justify-content: space-around;
-    }
-    .ressources li{
-        list-style: none;
-        height: 350px;
-        width: 350px;
-        margin: 10px;
-        background: turquoise;
-    }
+.footer{
+    height: 100px;
     
-/*Evenement*/
-.evenement{ background: rgba(rgba(218, 208, 208, 0.068), green, blue, alpha);
-    min-height: 500px;
-    width: 90%;
-    margin:0 auto;
-    border: solid 1px red;}
-
-    .evenement ul{
-        padding: 0;
-        display: flex;
-        justify-content: space-around;
-    }
-    .evenement li{
-        list-style: none;
-        height: 350px;
-        width: 350px;
-        margin: 10px;
-        background: turquoise;
-    }
-    
-/*Partie reserver aux souvenirs
-.container-buttons{
-    
-    background: rgba(rgba(218, 208, 208, 0.068), green, blue, alpha);
-    min-height: 500px;
-    width: 90%;
-    margin:0 auto;
-    border: solid 1px red;
+}
+.input{
+    display: none;
 }

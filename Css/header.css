@@ -7,7 +7,7 @@
 li, a, button{
   font-weight: 500;
   font-size: 16px;
-  color: aliceblue;
+  color: #f081bc;
   text-decoration: none;
 }
 
@@ -41,12 +41,20 @@ header{
 
 button{
   padding: 3px 25px;
-  background:blueviolet ;
+  background:#f081bc;
+  color: black;
   border: none;
-  border-radius: 50px;
+  border-radius: 5px;
   cursor: pointer;
 }
-.icon{
-  height: 20px;
-  width: 20px;
+
+button .material-symbols-outlined{
+  height: 15px;
+  width: 15px;
+  margin: 0;
+  color: #0e0e0e;
+  align-items: center;
+}
+.input{
+  border-radius: 5px;
 }
