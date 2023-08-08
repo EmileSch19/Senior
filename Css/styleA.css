@@ -72,3 +72,6 @@ section h3{
 .input{
     display: none;
 }
+@media screen  and (max-width=720px){
+  
+}

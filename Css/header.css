@@ -7,7 +7,7 @@
 li, a, button{
   font-weight: 500;
   font-size: 16px;
-  color: #f081bc;
+  color: aliceblue;
   text-decoration: none;
 }
 
@@ -57,4 +57,22 @@ button .material-symbols-outlined{
 }
 .input{
   border-radius: 5px;
+}
+.input .icon{
+  align-items: center;
+}
+.icon{
+  height: 25px;
+  width: 28px;
+  padding: 0;
+  background:#f081bc;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+}
+
+@media screen  and (max-width=720px){
+  
 }

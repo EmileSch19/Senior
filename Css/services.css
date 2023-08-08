@@ -85,3 +85,7 @@ img{
     background:#f081bc ;
     color: #31222d;
 }
+
+@media screen  and (max-width=720px){
+  
+}
