@@ -12,3 +12,4 @@ recherche.addEventListener('click', () => {
   fermer.addEventListener('click', () => {
     input.style.display = 'none';
   });
+

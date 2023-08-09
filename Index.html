@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="Css/styleA.css">
   <link rel="stylesheet" href="Css/Footer.css">
 <link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="Css/popup.css">
 <script defer src="js/app.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,8 +56,68 @@
     Nos services comprennent l'assistance quotidienne avec les activités de la vie quotidienne, tels que se laver, s'habiller, préparer les repas et se déplacer. Nous offrons également des soins médicaux, y compris l'administration de médicaments, la surveillance de la santé et la coordination avec les médecins.</p>
 
     <div class="btn">
-      <button class="btn1" type="submit">Connexion</button>
-      <button class="btn2" type="submit">S'inscrire</button>
+      <button class="btn1">Connexion</button>
+      <button class="btn2">S'inscrire</button>
+    </div>
+    <div class="popup">
+      <div class="close-btn">&times;</div>
+      <div class="form">
+        <h2>Log in</h2>
+        <div class="form-element">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="identifiant">
+        </div>
+        <div class="form-element">
+          <label for="password">Mot de passe</label>
+          <input type="password" id="password" placeholder="Entrer mdp">
+        </div>
+        <div class="form-element">
+          <input type="checkbox" id="remember-me">
+          <label for="remember-me">Se souvenir de moi</label>
+         
+        </div>
+        <div class="form-element">
+          <button>Sign in</button>
+      </div>
+      <div class="form-element">
+        <a href="#">Mdp oublier ?</a>
+      </div>
+    </div>
+  </div>
+  <div class="popup2">
+    <div class="close-btn2">&times;</div>
+    <div class="form2">
+      <h2>s'inscrire</h2>
+      <div class="form-element2">
+        <label for="email">Nom</label>
+        <input type="text" id="nom" placeholder="ex:Kent">
+      </div>
+      <div class="form-element2">
+        <label for="email">Prénom</label>
+        <input type="text" id="prenom" placeholder="ex:Clark">
+      </div>
+      <div class="form-element2">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="identifiant">
+      </div>
+      <div class="form-element2">
+        <label for="password">Mot de passe</label>
+        <input type="password" id="password" placeholder="8-12 caractères">
+      </div>
+      <div class="form-element2">
+        <label for="password">confirmer le mot de passe</label>
+        <input type="password" id="confirmerpassword" placeholder="Entrer mdp">
+      </div>
+      <div class="form-element2">
+        <input type="checkbox" id="remember-me">
+        <label for="remember-me">Se souvenir de moi</label>
+       
+      </div>
+      <div class="form-element2">
+        <button>Sign in</button>
+    </div>
+    <div class="form-element2">
+      <a href="#">Mdp oublier ?</a>
     </div>
   </div>
   </div>
@@ -92,6 +153,8 @@
     <p class="copyright">Future Coders @ 2021</p>
   </section>
   <script defer src="js\Script.js"></script>
+  <script defer src="js\popup.js"></script>
+
 </body>
 </html>
   

@@ -3,9 +3,11 @@
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
+
 img {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
 }
 .slideshow {
     position: relative;
@@ -36,7 +38,9 @@ img {
   }
   
   .slide.active {
+    border-radius: 10px;
     opacity: 1;
+    border:solid 1px #31222d;
   }
   
   .slide img {
@@ -80,6 +84,26 @@ img {
   
   button:hover {
     opacity: 0.7;
+  }
+
+  /*Evenement*/
+.evenement{ 
+  min-height: 600px;
+  width: 90%;
+  margin:0 auto;
+  }
+
+  .evenement ul{
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+  }
+  .evenement li{
+      list-style: none;
+      height: 350px;
+      width: 350px;
+      margin: 10px;
+      
   }
 
   /* responsive */

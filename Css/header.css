@@ -72,7 +72,27 @@ button .material-symbols-outlined{
   cursor: pointer;
   align-items: center;
 }
+/* effet_*/
+/* Appliquer l'effet aux éléments de navigation */
+.navbar li a {
+  transition: transform 0.3s, color 0.3s;
+}
 
+/* Lorsque le curseur passe sur l'élément de navigation, effectuez les transformations */
+.navbar li a:hover {
+  transform: scale(1.5);
+  color: #f081bc; /* Changer la couleur selon votre choix */
+}
+/* Appliquer l'effet au bouton "s'inscrire" */
+.btn-i {
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.btn-i:hover {
+  transform: scale(1.1);
+  background-color: #e4cbd8; 
+  color: #f081bc;/* Changer la couleur selon votre choix */
+}
 @media screen  and (max-width=720px){
   
 }
