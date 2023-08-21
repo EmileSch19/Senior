@@ -55,6 +55,7 @@ img{
     border: solid 0.1px rosybrown;
     border-radius: 15px;
     background: #31222d;
+
 }
 .ticket3{
     background:#f081bc ;
@@ -85,6 +86,35 @@ img{
     background:#f081bc ;
     color: #31222d;
 }
+.ticket:hover {
+    transform: scale(1.1);
+    transition: transform 0.6s ease-in-out;
+    background: #31222d;
+    color:#f081bc;
+  }
+  .ticket2:hover {
+    transform: scale(1.1);
+    transition: transform 0.6s ease-in-out;
+    background:#f081bc ;
+    color: #31222d;
+  }
+  .ticket3:hover {
+    transform: scale(1.1);
+    transition: transform 0.6s ease-in-out;
+    background: #31222d;
+    color:#f081bc;
+  }
+  .ticket4:hover {
+    transform: scale(1.1);
+    transition: transform 0.6s ease-in-out;
+    background:#f081bc ;
+    color: #31222d;
+  }.ticket5:hover {
+    transform: scale(1.1);
+    transition: transform 0.6s ease-in-out;
+    background: #31222d;
+    color:#f081bc;
+  }
 
 @media screen  and (max-width=720px){
   
